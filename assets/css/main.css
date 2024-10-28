@@ -649,6 +649,59 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Skills Section
+--------------------------------------------------------------*/
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-logo {
+  width: 40px;
+  height: auto;
+  max-width: 15%;
+}
+
+@media (max-width: 768px) {
+  .skill-logo {
+      width: 30px;
+      max-width: 20%;
+  }
+}
+
+.python-logo {
+  width: 50px;
+}
+
+.selenium-logo {
+  width: 45px;
+}
+
+.r-logo {
+  width: 45px;
+}
+
+.git-logo {
+  width: 45px;
+}
+
+.js-logo {
+  width: 45px;
+}
+
+.langchain-logo {
+  width: 70px;
+}
+
+/*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
 .stats .stats-item {
