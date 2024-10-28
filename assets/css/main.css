@@ -1268,6 +1268,53 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Communities Section
+--------------------------------------------------------------*/
+.community-content img {
+  max-width: 150px; /* Set a maximum width */
+  height: auto;     /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Add some space below the logo */
+}
+
+.community-section-title {
+  font-size: 1.8rem; /* Başlık boyutunu ayarlayın */
+}
+
+.community-section-description {
+  font-size: 1rem; /* Açıklama boyutunu ayarlayın */
+}
+
+.community-title {
+  font-size: 1.2rem; /* Topluluk adı boyutunu ayarlayın */
+}
+
+.community-description {
+  font-size: 0.9rem; /* Topluluk açıklama boyutunu ayarlayın */
+}
+
+.community-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the same color as the text */
+}
+
+.community-logo {
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.community-item {
+  color: inherit; /* Inherit the color of the text */
+}
+
+.community-item:hover,
+.community-item:hover * {
+    color: inherit; /* Prevent any child elements from changing color */
+}
+
+.community-item:hover .community-logo {
+  transform: scale(1.1); /* Scale the logo to 110% of its size on hover */
+}
+
+/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
