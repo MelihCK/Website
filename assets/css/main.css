@@ -552,6 +552,16 @@ section,
   justify-content: center;
 }
 
+#hero h2 {
+  position: relative;
+  top: -160px;  
+}
+
+#hero p {
+  position: relative;
+  top: -160px;  
+}
+
 .hero img {
   position: absolute;
   inset: 0;
