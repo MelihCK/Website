@@ -727,11 +727,11 @@ section,
 }
 
 .python-logo {
-  width: 50px;
+  width: 40px;
 }
 
 .selenium-logo {
-  width: 45px;
+  width: 35px;
 }
 
 .r-logo {
@@ -747,11 +747,19 @@ section,
 }
 
 .sql-logo {
-  width: 45px;
+  width: 30px;
 }
 
 .langchain-logo {
-  width: 70px;
+  width: 50px;
+}
+
+.docker-logo {
+  width: 100px;
+}
+
+.aws-logo {
+  width: 80px;
 }
 
 /*--------------------------------------------------------------
